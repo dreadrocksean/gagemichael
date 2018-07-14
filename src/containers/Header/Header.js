@@ -9,7 +9,7 @@ class Header extends Component {
   render() {
     return (
       <header className='App-header' style={styles}>
-        {/*<Hero />*/}
+        <div className='screen'></div>
         <h1 className='App-title'>Gage Michael</h1>
         <Nav />
       </header>
@@ -19,10 +19,6 @@ class Header extends Component {
 
 const styles = {
   backgroundImage: `url(${HeroImage})`,
-  backgroundColor: 222,
-  height: 150,
-  padding: 20,
-  color: 'white',
 }
 
 export default Header;
