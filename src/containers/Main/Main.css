@@ -1,10 +1,17 @@
 .main {
   display: flex;
   flex: 1 0 auto;
-  background: #e6f0e7;
-  color: #666;
-  font-size: 1em;
-  line-height: 1.5em;
+  background: #e6e8f0;
+  color: #778298;
+  font-size: 1.1em;
+  line-height: 1.6;
   text-align: left;
-  padding: 2em;
+  padding: 2em 8em;
+  /*font-family: 'Omnes Regular';*/
+  font-family: 'Oswald-light', sans-serif;
+}
+.main h3 {
+  margin-top: 3.2em;
+  color: #091836;
+  font-weight: 200;
 }

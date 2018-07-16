@@ -8,7 +8,7 @@ class Home extends Component {
         <h3>My Genres:</h3>
         <p>Young Pop / Summer / Rap</p>
         <p>I’m looking to bring music back to being an art form.  I mix elements of rap, pop, jazz and rock with the finished jams made for people to listen, smile and have a good time with.</p>
-        <h3>MISSION:</h3>
+        <h3>Mission:</h3>
         <p>I deliver everyone a fun time by making the absolute best songs, guaranteeing smiles and enjoyment.</p> 
         <h3>Why should you press play? </h3>
         <p>Listen to my music if you like thoughtful lyrics with quality instrumentation. These songs are best listened to during warm days and fun nights. Bring your own cabana. Pina colada is optional.</p> 

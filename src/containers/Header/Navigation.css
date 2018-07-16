@@ -32,10 +32,11 @@ li:last-child {
 li a {
     display: block;
     color: #ffffff7d;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     text-align: center;
     padding: 1em;
     text-decoration: none;
+    transition: color 0.3s;
 }
 
 /* Change the link color to #111 (black) on hover */
