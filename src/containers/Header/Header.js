@@ -1,24 +1,44 @@
 import React, { Component } from 'react';
+import { AppBar, Toolbar, Typography } from '@material-ui/core';
 import logo from '../../logo.svg';
 import Nav from './Navigation';
 import Hero from './Hero';
 import HeroImage from '../../assets/images/hero.jpg';
 import './Header.css';
 
+const styles = {
+  root: {
+    flexGrow: 1,
+  },
+  backgroundImage: `url(${HeroImage})`,
+  title: {
+    fontSize: '14.4vw',
+    fontWeight: 800,
+    fontFamily: 'sans-serif',
+    position: 'relative',
+    top: '50%',
+    transform: 'translateY(-50%)',
+    margin: 0,
+    color: 'rgba(255,255,255,0.1)',
+    WebkitTextStrokeWidth: 0.5,
+    WebkitTextStrokeColor: 'rgba(255,255,255,0.3)',
+  },
+};
+
 class Header extends Component {
   render() {
     return (
-      <header className='App-header' style={styles}>
-        <div className='screen'></div>
-        <h1 className='App-title'>Gage Michael</h1>
-        <Nav />
-      </header>
+      <AppBar position='sticky'>
+        <header className='App-header' style={styles}>
+          <div className='screen'></div>
+          <Typography variant='title' color='inherit' style={styles.title}>
+            Gage Michael
+          </Typography>
+          <Nav />
+        </header>
+      </AppBar>
     );
   }
-}
-
-const styles = {
-  backgroundImage: `url(${HeroImage})`,
 }
 
 export default Header;

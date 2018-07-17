@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
-
 import Home from '../../pages/Home';
 import Music from '../../pages/Music';
 import Dates from '../../pages/Dates';
