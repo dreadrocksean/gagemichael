@@ -19,7 +19,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://gagemichael.com",
+  "homepage": "http://dreadrocksean.github.io/gagemichael",
   "devDependencies": {
     "gh-pages": "^1.2.0"
   }
