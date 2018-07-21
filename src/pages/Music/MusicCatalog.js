@@ -1,16 +1,24 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './Music.css';
 
 class MusicCatalog extends Component {
   render() {
     return (
-      <div className='catalog'>
+      <div className='music'>
         <h3>MusicCatalog</h3>
-        <div>
-          <div><a href="https://soundcloud.com/gage_michael">https://soundcloud.com/gage_michael
-          </a></div>
-          <div>Instagram @gage.g</div>
-        </div>
+        <ul>
+          <li>
+            <Link to="https://soundcloud.com/gage_michael">
+              Soundcloud
+            </Link>
+          </li>
+          <li>
+            <Link to="https://www.instagram.com/gage.g/">
+              Instagram
+            </Link>
+          </li>
+        </ul>
       </div>
     );
   }

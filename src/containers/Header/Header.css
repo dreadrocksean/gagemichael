@@ -2,6 +2,11 @@
   height: 500px;
   overflow: hidden;
 }
+.hero img {
+  width: 100%;
+  min-width: 1600px;
+  min-height: 100%;
+}
 
 .screen {
   position: absolute;
@@ -27,12 +32,10 @@
 .App-header {
   background-color: #222;
   height: 500px;
-  padding: 20px;
   color: white;
   position: relative;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 50% -620px; 
   background-size: cover;
 }
 

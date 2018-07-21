@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Header.css';
-import HeroImage from '../../assets/images/hero.jpg';
+import HeroImage from '../../assets/images/hero_cropped.jpg';
 
 class Hero extends Component {
   render() {

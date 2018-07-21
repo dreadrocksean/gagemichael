@@ -15,3 +15,15 @@
   color: #091836;
   font-weight: 200;
 }
+
+.main > *:first-child > *:first-child {
+  margin-top: 0;
+}
+
+.main a {
+  color: #778298;
+}
+
+.main a:hover {
+  color: #445475;
+}

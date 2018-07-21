@@ -1,5 +1,57 @@
+@font-face {
+font-family: 'Omnes Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Omnes Regular'), url('assets/fonts/omnes/omnes-regular-webfont.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Omnes ExtraLight';
+font-style: normal;
+font-weight: normal;
+src: local('Omnes ExtraLight'), url('assets/fonts/omnes/omnes_extralight-webfont.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Omnes Light';
+font-style: normal;
+font-weight: normal;
+src: local('Omnes Light'), url('assets/fonts/omnes/omnes_light-webfont.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Omnes Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Omnes Medium'), url('assets/fonts/omnes/omnes_medium-webfont.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Omnes Semibold';
+font-style: normal;
+font-weight: normal;
+src: local('Omnes Semibold'), url('assets/fonts/omnes/omnes-semibold-webfont.woff') format('woff');
+}
+
+html {
+  font-size: 20px;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: grey;
 }

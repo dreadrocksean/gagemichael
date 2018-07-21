@@ -26,18 +26,10 @@ class Dates extends Component {
   render() {
     const { classes } = this.props;
     return (
-      <div className={classes.root}>
-        <AppBar position="static">
-          <Toolbar>
-            <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
-              <MenuIcon open={true} />
-            </IconButton>
-            <Typography variant="title" color="inherit" className={classes.flex}>
-              News
-            </Typography>
-            <Button color="inherit">Login</Button>
-          </Toolbar>
-        </AppBar>
+      <div className='dates'>
+        <Typography variant="title" color="inherit">
+            No shows available
+        </Typography>
       </div>
     );
   }

@@ -10,7 +10,7 @@ const Song = props => {
     return <div>Sorry, but the song was not found</div>
   }
   return (
-    <div>
+    <div className="song">
       <h2>Song (#{songIndex})</h2>
     </div>
   );
